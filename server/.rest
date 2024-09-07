@@ -1,0 +1,13 @@
+POST http://localhost:3001/api/auth/reset_password/:805a0b91492ba758b553a65493ecd2ee1d014b8e
+Content-Type: application/json
+
+{
+    "password": "ansila@gmail.com"
+}
+
+# POST http://localhost:3001/api/auth/verify-email
+# Content-Type: application/json
+# ̥
+# {
+#     "code": "6989̥84"
+# }

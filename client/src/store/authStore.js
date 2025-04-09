@@ -1,7 +1,7 @@
 import {create} from 'zustand';
 import axios from 'axios'
 
-const API_URL = "http://localhost:3001/api/auth";
+const API_URL = "https://mern-auth-4hju.onrender.com/api/auth";
 
 axios.defaults.withCredentials = true;
 

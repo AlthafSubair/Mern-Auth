@@ -9,7 +9,7 @@ dotenv.config()
 
 const app = express();
 
-app.use(cors({ origin: "http://localhost:5173", credentials: true }));
+app.use(cors({ origin: "https://mern-auth-1-c0fy.onrender.com", credentials: true }));
 
 app.use(express.json()); // allows us to parse incoming requests:req.body
 app.use(cookieParser()); // allows us to parse incoming cookies
